@@ -8,9 +8,14 @@
   background-color: #F9FAFB;
 }
 
-div, input, p {
+div, input, p, img {
   margin-left: auto; 
   margin-right: auto; 
+}
+
+img {
+  margin-bottom: 2em; 
+  margin-top: 3.5em;
 }
 
 .main-heading {
@@ -26,7 +31,7 @@ div, input, p {
   color: #6C727F;
   font-weight: 400;
   font-size: 1.25rem;
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 
 .sign-up-form {
