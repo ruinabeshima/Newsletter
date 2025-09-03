@@ -8,6 +8,10 @@
   background-color: #F9FAFB;
 }
 
+title {
+  display: none;
+}
+
 div, input, p, img {
   margin-left: auto; 
   margin-right: auto; 
@@ -83,7 +87,10 @@ img {
 
   .sign-up-form {
     width: 80%; 
+    margin-top: 2em;
   }
+
+
 }
 
 
