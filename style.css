@@ -1,0 +1,73 @@
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  display: block;
+  background-color: #F9FAFB;
+}
+
+div, input, p {
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.main-heading {
+  width: 57%; 
+}
+
+.title {
+  font-weight: 600;
+  font-size: 3rem; 
+}
+
+.description {
+  color: #6C727F;
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-top: 1em;
+}
+
+.sign-up-form {
+  width: 45%;
+  margin-top: 4em;
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+  border: 1px solid #F9FAFB;
+}
+
+.email-form, .subscribe-button{
+  width: 90%;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 1.5em;
+  padding-top: 0.75rem; 
+  padding-bottom: 0.75rem;
+}
+
+.email-form {
+  background-color: #E5E7EB;
+  border-radius: 10px;
+  border: 1px solid #6C727F;
+  color: #394150;
+}
+
+.subscribe-button {
+  background-color: #284BCE; 
+  color: white;
+  border-radius: 10px; 
+  border: none;
+}
+
+.subscribe-button:hover {
+  cursor: pointer;
+}
+
+.helper-text {
+  font-weight: 400; 
+  font-size: 0.875rem;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+
