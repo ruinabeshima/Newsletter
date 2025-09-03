@@ -75,4 +75,15 @@ img {
   margin-bottom: 1.5em;
 }
 
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  .main-heading {
+    width: 90%; 
+  }
+
+  .sign-up-form {
+    width: 80%; 
+  }
+}
+
 
